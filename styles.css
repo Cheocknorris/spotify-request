@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+}
+
+#main-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    height: 25%;
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#input {
+    display: flex;
+}
+
+input {
+    font-family: "Public Sans", sans-serif;
+    height: 20px;
+    margin: 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+select {
+    border-radius: 20px;
+    width: 80px;
+    padding-left: 15px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+#artist {
+    font-family: "Public Sans", sans-serif;
+    text-align: center;
+    color: #303030;
+}
+
+#album {
+    font-family: "Public Sans", sans-serif;
+    color: #303030;
+}
+
+button {
+    font-family: "Public Sans", sans-serif;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    width: 90px;
+    background-color: white;
+    border: white solid 2px;
+    border-radius: 20px;
+    font-weight: 500;
+    /* color: white; */
+    /* box-shadow: 1 1px 1 1px grey; */
+    font-size: 15px;
+    font-weight: 600;
+    color: #303030;
+}
+
+#results-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px 80px 20px 80px;
+}
+
+h2 {
+    font-family: "Public Sans", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+}
+
+img {
+    height: 160px;
+    width: 160px;
+}
+
+.result-pic {
+    /* box-shadow: 1px 1px 5px 0.5px #585858; */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+p {
+    font-family: "Public Sans", sans-serif;
+    color: white;
+}
+
+.name {
+    order: -1;
+    margin: 10px;
+}
+
+a {
+    font-family: "Public Sans", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mouse-over {
+    background-color: black;
+    color: white;
+}
+
+#no-results {
+    margin: 50px;
+    font-family: "Public Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hide {
+    visibility: hidden;
+}
